@@ -47,3 +47,6 @@ environs==11.0.0
 
 # Type hints
 typing-extensions==4.7.1  # Using older version for compatibility
+
+# Production server
+gunicorn==21.2.0

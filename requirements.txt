@@ -1,0 +1,49 @@
+# Flask and extensions
+Flask==3.0.2
+python-dotenv==1.0.1
+Flask-Cors==4.0.0
+
+# OpenAI - using older version for compatibility
+openai==0.28.1
+
+# HTTP client
+requests==2.31.0
+httpx==0.26.0
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2024.1
+
+# Development tools
+black==24.2.0
+flake8==7.0.0
+pytest==8.0.1
+
+# Markdown processing
+markdown==3.5.2
+pygments==2.17.2
+
+# Security
+python-jose==3.3.0
+cryptography==42.0.2
+
+# CORS support
+flask-cors==4.0.0
+
+# Session management
+Flask-Session==0.5.0
+
+# Static file serving
+whitenoise==6.6.0
+
+# Error handling
+sentry-sdk==1.40.4
+
+# Logging
+structlog==24.1.0
+
+# Environment variables
+environs==11.0.0
+
+# Type hints
+typing-extensions==4.7.1  # Using older version for compatibility

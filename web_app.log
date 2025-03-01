@@ -1,0 +1,376 @@
+2025-03-01 12:30:58,371 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:30:58,371 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:30:58,372 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:30:58,372 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:30:58,711 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:30:58,711 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:30:58,711 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:30:58,711 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:34:58,210 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:34:58,210 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:34:58,211 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:34:58,211 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:34:58,530 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:34:58,530 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:34:58,530 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:34:58,530 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:35:26,106 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 12:35:26,106 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 12:35:26,106 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 12:35:26,106 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 12:35:26,107 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 12:35:26,107 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 12:35:26,107 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 12:35:26,107 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 12:35:26,273 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 12:35:26,273 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 12:35:26,275 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 12:35:26,275 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:35:26,283 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:37:26,926 - web_app.routes - ERROR - Integration error: Error processing request: Error analyzing code: module 'openai' has no attribute 'error'
+2025-03-01 12:37:26,926 - web_app.routes - ERROR - Integration error: Error processing request: Error analyzing code: module 'openai' has no attribute 'error'
+2025-03-01 12:39:17,924 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:39:17,924 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:39:17,925 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:39:17,925 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:50:35,594 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:50:35,594 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:50:35,595 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:50:35,595 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:50:35,934 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:50:35,934 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:50:35,934 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:50:35,934 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:50:53,588 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 12:50:53,588 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 12:50:53,588 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 12:50:53,588 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 12:50:53,589 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 12:50:53,589 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 12:50:53,589 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 12:50:53,589 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 12:50:53,647 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 12:50:53,647 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 12:50:53,651 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 12:50:53,651 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:50:53,714 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 12:51:12,070 - web_app.routes - ERROR - Integration error: Error processing request: Error analyzing code: OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-01 12:51:12,070 - web_app.routes - ERROR - Integration error: Error processing request: Error analyzing code: OpenAI API error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-01 12:59:24,676 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:59:24,676 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:59:24,677 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:59:24,677 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:59:40,482 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:59:40,482 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 12:59:40,482 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 12:59:40,482 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:02:10,990 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:02:10,990 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:02:10,990 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:02:10,990 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:02:11,335 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:02:11,335 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:02:11,336 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:02:11,336 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:02:23,318 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 13:02:23,318 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 13:02:23,319 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 13:02:23,319 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 13:02:23,320 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 13:02:23,320 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 13:02:23,320 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 13:02:23,320 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 13:02:23,353 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 13:02:23,353 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 13:02:23,354 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 13:02:23,354 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 13:02:23,362 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 13:02:23,362 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 13:02:23,363 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:02:23,363 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:02:23,363 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:02:23,363 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:02:23,363 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:02:23,363 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:02:23,363 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 13:02:23,363 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 13:02:23,363 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:02:23,363 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:02:48,051 - web_app.routes - ERROR - Integration error: Error processing request: Error analyzing code: OpenAI API error: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 86734 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-03-01 13:02:48,051 - web_app.routes - ERROR - Integration error: Error processing request: Error analyzing code: OpenAI API error: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 86734 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-03-01 13:06:19,544 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:06:19,544 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:06:19,544 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:06:19,544 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:06:31,289 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:06:31,289 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:06:31,289 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:06:31,289 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:06:31,637 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:06:31,637 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:06:31,637 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:06:31,637 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:06:41,901 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 13:06:41,901 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 13:06:41,902 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 13:06:41,902 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 13:06:41,902 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 13:06:41,902 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 13:06:41,902 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 13:06:41,902 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 13:06:41,940 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 13:06:41,940 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 13:06:41,941 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 13:06:41,941 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 13:06:41,948 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 13:06:41,948 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 13:06:41,948 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:06:41,948 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:06:41,949 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:06:41,949 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:06:41,949 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:06:41,949 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:06:41,949 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 13:06:41,949 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 13:06:41,949 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:06:41,949 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:16:32,785 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:16:32,785 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:16:32,785 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:16:32,785 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:16:57,841 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:16:57,841 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:16:57,841 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:16:57,841 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:20:07,072 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:20:07,072 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:20:07,074 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:20:07,074 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:20:07,422 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:20:07,422 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:20:07,422 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:20:07,422 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:20:17,501 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 13:20:17,501 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 13:20:17,501 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 13:20:17,501 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 13:20:17,502 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 13:20:17,502 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 13:20:17,502 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 13:20:17,502 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 13:20:17,623 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 13:20:17,623 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 13:20:17,651 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 13:20:17,651 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 13:20:17,680 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 13:20:17,680 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 13:20:17,681 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:20:17,681 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:20:17,681 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:20:17,681 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:20:17,681 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:20:17,681 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:20:17,681 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 13:20:17,681 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 13:20:17,681 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:20:17,681 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:27:48,585 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:27:48,585 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:27:48,586 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:27:48,586 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:27:48,939 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:27:48,939 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:27:48,940 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:27:48,940 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:29:02,927 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 13:29:02,927 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 13:29:02,929 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 13:29:02,929 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 13:29:02,930 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 13:29:02,930 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 13:29:02,931 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 13:29:02,931 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 13:29:02,972 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 13:29:02,972 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 13:29:02,974 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 13:29:02,974 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 13:29:02,982 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 13:29:02,982 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 13:29:02,983 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:29:02,983 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:29:02,983 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:29:02,983 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:29:02,983 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:29:02,983 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:29:02,983 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 13:29:02,983 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 13:29:02,983 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:29:02,983 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:29:28,109 - web_app.routes - ERROR - Integration error: Error processing request: Erro ao analisar código: Erro na API do OpenAI: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 87287 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-03-01 13:29:28,109 - web_app.routes - ERROR - Integration error: Error processing request: Erro ao analisar código: Erro na API do OpenAI: Error code: 400 - {'error': {'message': "This model's maximum context length is 16385 tokens. However, your messages resulted in 87287 tokens. Please reduce the length of the messages.", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}
+2025-03-01 13:30:05,090 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:30:05,090 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 13:30:05,090 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:30:05,090 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 13:30:19,475 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 13:30:19,475 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 13:30:19,475 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 13:30:19,475 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 13:30:19,476 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 13:30:19,476 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 13:30:19,476 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 13:30:19,476 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 13:30:19,549 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 13:30:19,549 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 13:30:19,558 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 13:30:19,558 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 13:30:19,584 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 13:30:19,584 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 13:30:19,585 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:30:19,585 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:30:19,585 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:30:19,585 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:30:19,585 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:30:19,585 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:30:19,585 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 13:30:19,585 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 13:30:19,585 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 13:30:19,585 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 14:07:00,860 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:07:00,860 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:07:00,860 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:07:00,860 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:07:01,218 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:07:01,218 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:07:01,218 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:07:01,218 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:10:06,075 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:10:06,075 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:10:06,075 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:10:06,075 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:10:06,415 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:10:06,415 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:10:06,416 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:10:06,416 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:10:23,507 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 14:10:23,507 - web_app.routes - INFO - Received project path: chatbot_project
+2025-03-01 14:10:23,507 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 14:10:23,507 - web_app.routes - INFO - Initial path object: chatbot_project
+2025-03-01 14:10:23,508 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 14:10:23,508 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 14:10:23,508 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 14:10:23,508 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/chatbot_project
+2025-03-01 14:10:23,550 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 14:10:23,550 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/chatbot_project
+2025-03-01 14:10:23,552 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 14:10:23,552 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/chatbot_project
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/chatbot_project
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Found 20 items in directory
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 14:10:23,577 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/chatbot_project
+2025-03-01 14:17:45,254 - web_app.routes - INFO - Received project path: mam_project
+2025-03-01 14:17:45,254 - web_app.routes - INFO - Received project path: mam_project
+2025-03-01 14:17:45,255 - web_app.routes - INFO - Initial path object: mam_project
+2025-03-01 14:17:45,255 - web_app.routes - INFO - Initial path object: mam_project
+2025-03-01 14:17:45,255 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 14:17:45,255 - web_app.routes - INFO - Searching in paths: [PosixPath('/Users/renansilva/Desktop'), PosixPath('/Users/renansilva/Documents'), PosixPath('/Users/renansilva/Downloads'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full/mam_project'), PosixPath('/Users/renansilva/VS Code Workspace'), PosixPath('/Users/renansilva/VS Code Workspace/agent_dev_full')]
+2025-03-01 14:17:45,256 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/mam_project
+2025-03-01 14:17:45,256 - web_app.routes - INFO - Checking path: /Users/renansilva/Desktop/mam_project
+2025-03-01 14:17:45,299 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/mam_project
+2025-03-01 14:17:45,299 - web_app.routes - INFO - Checking path: /Users/renansilva/Documents/mam_project
+2025-03-01 14:17:45,301 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/mam_project
+2025-03-01 14:17:45,301 - web_app.routes - INFO - Checking path: /Users/renansilva/Downloads/mam_project
+2025-03-01 14:17:45,308 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/mam_project
+2025-03-01 14:17:45,308 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/mam_project
+2025-03-01 14:17:45,308 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/mam_project
+2025-03-01 14:17:45,308 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/mam_project
+2025-03-01 14:17:45,308 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project
+2025-03-01 14:17:45,308 - web_app.routes - INFO - Checking path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project
+2025-03-01 14:17:45,308 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project
+2025-03-01 14:17:45,308 - web_app.routes - INFO - Found exact match: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project
+2025-03-01 14:17:45,308 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project
+2025-03-01 14:17:45,308 - web_app.routes - INFO - Final resolved path: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project
+2025-03-01 14:17:45,309 - web_app.routes - INFO - Found 12 items in directory
+2025-03-01 14:17:45,309 - web_app.routes - INFO - Found 12 items in directory
+2025-03-01 14:17:45,309 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project
+2025-03-01 14:17:45,309 - web_app.routes - INFO - Project path set to: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project
+2025-03-01 14:26:17,993 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:26:17,993 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:26:17,994 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:26:17,994 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:29:03,726 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:29:03,726 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:29:03,727 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:29:03,727 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:35:45,493 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:35:45,493 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:35:45,493 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:35:45,493 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:35:45,846 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:35:45,846 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:35:45,846 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:35:45,846 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:36:37,509 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:36:37,509 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:36:37,509 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:36:37,509 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:36:47,312 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:36:47,312 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:36:47,312 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:36:47,312 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:39:29,598 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:39:29,598 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:39:29,598 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:39:29,598 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:39:44,473 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:39:44,473 - web_app - INFO - Static directory ensured at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static
+2025-03-01 14:39:44,473 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html
+2025-03-01 14:39:44,473 - web_app - INFO - index.html found at: /Users/renansilva/VS Code Workspace/agent_dev_full/mam_project/web_app/static/index.html

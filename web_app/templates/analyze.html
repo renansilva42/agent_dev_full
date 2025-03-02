@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+
+{% block title %}Analisar Projeto - {{ project.name }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Analisar Projeto: {{ project.name }}</h1>
+        <a href="{{ url_for('routes.project_detail', project_id=project.id) }}" class="btn btn-outline-secondary">
+            Voltar para Detalhes
+        </a>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">Informações do Projeto</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Nome:</strong> {{ project.name }}</p>
+                    <p><strong>Caminho:</strong> {{ project.path }}</p>
+                    <p><strong>Descrição:</strong> {{ project.description or "Sem descrição" }}</p>
+                    <p><strong>Criado em:</strong> {{ project.created_at.strftime('%d/%m/%Y') }}</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-8 mb-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">Nova Análise</h5>
+                </div>
+                <div class="card-body">
+                    <form id="analysisForm">
+                        <div class="form-group">
+                            <label for="analysisType">Tipo de Análise</label>
+                            <select class="form-control" id="analysisType">
+                                <option value="general">Análise Geral</option>
+                                <option value="code_analysis">Análise de Código</option>
+                                <option value="backend">Análise de Backend</option>
+                                <option value="frontend">Análise de Frontend</option>
+                                <option value="database">Análise de Banco de Dados</option>
+                                <option value="devops">Análise de DevOps</option>
+                                <option value="project_management">Análise de Gerenciamento de Projeto</option>
+                                <option value="project_improvement">Sugestões de Melhoria</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="userMessage">Sua Solicitação</label>
+                            <textarea class="form-control" id="userMessage" rows="4" placeholder="Descreva o que você gostaria de analisar ou pergunte algo específico sobre o projeto..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="startAnalysis">Iniciar Análise</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="card mt-4" id="resultCard" style="display: none;">
+                <div class="card-header">
+                    <h5 class="mb-0">Resultado da Análise</h5>
+                </div>
+                <div class="card-body">
+                    <div id="loadingIndicator" class="text-center">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="sr-only">Carregando...</span>
+                        </div>
+                        <p class="mt-2">Analisando projeto, por favor aguarde...</p>
+                    </div>
+                    <div id="analysisResult" style="display: none;">
+                        <!-- Resultado da análise será inserido aqui -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block extra_js %}
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#analysisForm').submit(function(e) {
+        e.preventDefault();
+        
+        const analysisType = $('#analysisType').val();
+        const userMessage = $('#userMessage').val();
+        
+        // Mostrar card de resultado e indicador de carregamento
+        $('#resultCard').show();
+        $('#loadingIndicator').show();
+        $('#analysisResult').hide();
+        
+        // Fazer requisição para API
+        $.ajax({
+            url: '/api/projects/{{ project.id }}/analyze',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({ 
+                type: analysisType,
+                message: userMessage
+            }),
+            success: function(response) {
+                // Esconder indicador de carregamento
+                $('#loadingIndicator').hide();
+                
+                // Renderizar markdown para HTML
+                const htmlContent = marked.parse(response.content);
+                
+                // Mostrar resultado
+                $('#analysisResult').html(htmlContent).show();
+                
+                // Rolar para o resultado
+                $('html, body').animate({
+                    scrollTop: $("#resultCard").offset().top - 20
+                }, 500);
+            },
+            error: function(xhr) {
+                // Esconder indicador de carregamento
+                $('#loadingIndicator').hide();
+                
+                // Mostrar erro
+                $('#analysisResult').html('<div class="alert alert-danger">Erro ao analisar projeto: ' + 
+                    xhr.responseJSON.error + '</div>').show();
+            }
+        });
+    });
+});
+</script>
+{% endblock %}
+{% endblock %}

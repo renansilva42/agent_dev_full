@@ -1,16 +1,21 @@
 # web_app/__init__.py
 import os
-from flask import Flask
-from flask_cors import CORS
+from pathlib import Path
+import logging
 
-def create_app():
-    """Cria e configura a aplicação Flask"""
-    # Criar aplicação Flask
-    app = Flask(__name__, 
-                static_folder=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'web_app', 'static'),
-                static_url_path='/static')
-    
-    # Configurar CORS
-    CORS(app)
-    
-    return app
+# Configurar logging
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+handler = logging.FileHandler('web_app.log')
+handler.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+
+# Garantir que o diretório static existe
+static_dir = Path(__file__).parent / 'static'
+if not static_dir.exists():
+    static_dir.mkdir(parents=True)
+    logger.info(f"Static directory created at: {static_dir.resolve()}")
+else:
+    logger.info(f"Static directory ensured at: {static_dir.resolve()}")

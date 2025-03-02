@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block title %}CodeAnalyzer - Análise de Código Inteligente{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Bem-vindo ao CodeAnalyzer</h1>
+    <p class="lead">Uma plataforma inteligente para análise de código em repositórios locais.</p>
+    <hr class="my-4">
+    <p>Analise seu código, receba sugestões de melhoria e otimize seu desenvolvimento com IA.</p>
+    <div class="mt-4">
+        {% if current_user.is_authenticated %}
+        <a class="btn btn-primary btn-lg mr-2" href="{{ url_for('routes.dashboard') }}" role="button">Ir para Dashboard</a>
+        {% else %}
+        <a class="btn btn-primary btn-lg mr-2" href="{{ url_for('routes.register') }}" role="button">Começar agora</a>
+        <a class="btn btn-outline-secondary btn-lg" href="{{ url_for('routes.login') }}" role="button">Login</a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Análise de Código</h5>
+                <p class="card-text">Analise seu código com IA avançada para identificar problemas e oportunidades de melhoria.</p>
+                <ul class="list-unstyled mt-3">
+                    <li><i class="fas fa-check text-success mr-2"></i> Detecção de bugs</li>
+                    <li><i class="fas fa-check text-success mr-2"></i> Sugestões de refatoração</li>
+                    <li><i class="fas fa-check text-success mr-2"></i> Análise de padrões de código</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Repositórios Locais</h5>
+                <p class="card-text">Trabalhe com seus repositórios locais sem precisar fazer upload para a nuvem.</p>
+                <ul class="list-unstyled mt-3">
+                    <li><i class="fas fa-check text-success mr-2"></i> Segurança de dados</li>
+                    <li><i class="fas fa-check text-success mr-2"></i> Análise de projetos completos</li>
+                    <li><i class="fas fa-check text-success mr-2"></i> Integração com seu ambiente de desenvolvimento</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Agentes Especializados</h5>
+                <p class="card-text">Utilize agentes de IA especializados em diferentes aspectos do desenvolvimento.</p>
+                <ul class="list-unstyled mt-3">
+                    <li><i class="fas fa-check text-success mr-2"></i> Backend e Frontend</li>
+                    <li><i class="fas fa-check text-success mr-2"></i> Banco de Dados e DevOps</li>
+                    <li><i class="fas fa-check text-success mr-2"></i> Gerenciamento de Projetos</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Como Funciona</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4 text-center mb-4">
+                        <div class="rounded-circle bg-light p-4 d-inline-block">
+                            <i class="fas fa-folder-open fa-3x text-primary"></i>
+                        </div>
+                        <h5 class="mt-3">1. Adicione seu Projeto</h5>
+                        <p>Indique o caminho para seu repositório local de código.</p>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <div class="rounded-circle bg-light p-4 d-inline-block">
+                            <i class="fas fa-cogs fa-3x text-primary"></i>
+                        </div>
+                        <h5 class="mt-3">2. Escolha o Tipo de Análise</h5>
+                        <p>Selecione o tipo de análise que deseja realizar no seu código.</p>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <div class="rounded-circle bg-light p-4 d-inline-block">
+                            <i class="fas fa-lightbulb fa-3x text-primary"></i>
+                        </div>
+                        <h5 class="mt-3">3. Receba Insights</h5>
+                        <p>Obtenha análises detalhadas e sugestões para melhorar seu código.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-12 text-center">
+        <h2>Pronto para melhorar seu código?</h2>
+        <p class="lead">Comece agora mesmo a utilizar nossa plataforma de análise inteligente.</p>
+        {% if current_user.is_authenticated %}
+        <a class="btn btn-primary btn-lg mt-3" href="{{ url_for('routes.dashboard') }}">Ir para Dashboard</a>
+        {% else %}
+        <a class="btn btn-primary btn-lg mt-3" href="{{ url_for('routes.register') }}">Criar Conta Gratuita</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+{% endblock %}

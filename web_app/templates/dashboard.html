@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - CodeAnalyzer{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mb-4">Dashboard</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Meus Projetos</h5>
+                    <p class="card-text">Gerencie seus projetos locais.</p>
+                    <a href="{{ url_for('routes.projects') }}" class="btn btn-primary">Ver Projetos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Novo Projeto</h5>
+                    <p class="card-text">Adicione um novo projeto para análise.</p>
+                    <a href="#" class="btn btn-success" data-toggle="modal" data-target="#newProjectModal">Adicionar Projeto</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Análises Recentes</h5>
+                    <p class="card-text">Veja suas análises mais recentes.</p>
+                    <a href="#" class="btn btn-info">Ver Análises</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para novo projeto -->
+<div class="modal fade" id="newProjectModal" tabindex="-1" role="dialog" aria-labelledby="newProjectModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="newProjectModalLabel">Adicionar Novo Projeto</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="newProjectForm">
+                    <div class="form-group">
+                        <label for="projectName">Nome do Projeto</label>
+                        <input type="text" class="form-control" id="projectName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="projectPath">Caminho do Projeto</label>
+                        <input type="text" class="form-control" id="projectPath" required>
+                        <small class="form-text text-muted">Digite o caminho completo para o diretório do projeto.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="projectDescription">Descrição (opcional)</label>
+                        <textarea class="form-control" id="projectDescription" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" id="saveProject">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block extra_js %}
+<script>
+$(document).ready(function() {
+    $('#saveProject').click(function() {
+        const name = $('#projectName').val();
+        const path = $('#projectPath').val();
+        const description = $('#projectDescription').val();
+        
+        if (!name || !path) {
+            alert('Por favor, preencha os campos obrigatórios.');
+            return;
+        }
+        
+        $.ajax({
+            url: '/api/projects',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({ 
+                name: name, 
+                path: path,
+                description: description
+            }),
+            success: function(response) {
+                $('#newProjectModal').modal('hide');
+                window.location.href = '/projects';
+            },
+            error: function(xhr) {
+                alert('Erro ao criar projeto: ' + xhr.responseJSON.error);
+            }
+        });
+    });
+});
+</script>
+{% endblock %}
+{% endblock %}

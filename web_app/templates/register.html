@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Registro - CodeAnalyzer{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">Criar Conta</h4>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('routes.register') }}">
+                    <div class="form-group">
+                        <label for="username">Nome de Usuário</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm_password">Confirmar Senha</label>
+                        <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Registrar</button>
+                </form>
+                <hr>
+                <p>Já tem uma conta? <a href="{{ url_for('routes.login') }}">Faça login</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

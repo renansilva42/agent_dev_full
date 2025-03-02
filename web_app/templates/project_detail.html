@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+
+{% block title %}{{ project.name }} - Detalhes{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>{{ project.name }}</h1>
+        <div>
+            <a href="{{ url_for('routes.analyze_project', project_id=project.id) }}" class="btn btn-primary">
+                Nova Análise
+            </a>
+            <a href="{{ url_for('routes.projects') }}" class="btn btn-outline-secondary ml-2">
+                Voltar para Projetos
+            </a>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">Informações do Projeto</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Nome:</strong> {{ project.name }}</p>
+                    <p><strong>Caminho:</strong> {{ project.path }}</p>
+                    <p><strong>Descrição:</strong> {{ project.description or "Sem descrição" }}</p>
+                    <p><strong>Criado em:</strong> {{ project.created_at.strftime('%d/%m/%Y') }}</p>
+                    <button class="btn btn-outline-primary btn-sm" id="editProject" data-toggle="modal" data-target="#editProjectModal">
+                        Editar Informações
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">Análises Recentes</h5>
+                </div>
+                <div class="card-body">
+                    {% if analyses %}
+                    <div class="list-group">
+                        {% for analysis in analyses %}
+                        <a href="{{ url_for('routes.get_analysis', analysis_id=analysis.id) }}" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">{{ analysis.type|title }}</h5>
+                                <small>{{ analysis.created_at.strftime('%d/%m/%Y %H:%M') }}</small>
+                            </div>
+                            <p class="mb-1">{{ analysis.content[:100] }}{% if analysis.content|length > 100 %}...{% endif %}</p>
+                        </a>
+                        {% endfor %}
+                    </div>
+                    {% else %}
+                    <div class="alert alert-info">
+                        <p>Nenhuma análise encontrada para este projeto.</p>
+                        <a href="{{ url_for('routes.analyze_project', project_id=project.id) }}" class="btn btn-primary btn-sm">
+                            Criar Primeira Análise
+                        </a>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para editar projeto -->
+<div class="modal fade" id="editProjectModal" tabindex="-1" role="dialog" aria-labelledby="editProjectModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editProjectModalLabel">Editar Projeto</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editProjectForm">
+                    <div class="form-group">
+                        <label for="editProjectName">Nome do Projeto</label>
+                        <input type="text" class="form-control" id="editProjectName" value="{{ project.name }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="editProjectPath">Caminho do Projeto</label>
+                        <input type="text" class="form-control" id="editProjectPath" value="{{ project.path }}" required>
+                        <small class="form-text text-muted">Digite o caminho completo para o diretório do projeto.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="editProjectDescription">Descrição (opcional)</label>
+                        <textarea class="form-control" id="editProjectDescription" rows="3">{{ project.description }}</textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" id="updateProject">Salvar Alterações</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block extra_js %}
+<script>
+$(document).ready(function() {
+    $('#updateProject').click(function() {
+        const name = $('#editProjectName').val();
+        const path = $('#editProjectPath').val();
+        const description = $('#editProjectDescription').val();
+        
+        if (!name || !path) {
+            alert('Por favor, preencha os campos obrigatórios.');
+            return;
+        }
+        
+        $.ajax({
+            url: '/api/projects/{{ project.id }}',
+            type: 'PUT',
+            contentType: 'application/json',
+            data: JSON.stringify({ 
+                name: name, 
+                path: path,
+                description: description
+            }),
+            success: function(response) {
+                $('#editProjectModal').modal('hide');
+                location.reload();
+            },
+            error: function(xhr) {
+                alert('Erro ao atualizar projeto: ' + xhr.responseJSON.error);
+            }
+        });
+    });
+});
+</script>
+{% endblock %}
+{% endblock %}

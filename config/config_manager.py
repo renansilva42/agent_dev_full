@@ -1,63 +1,100 @@
 # config/config_manager.py
 import os
+import json
 import logging
-from typing import Dict, Any, Optional
+from pathlib import Path
 from dotenv import load_dotenv
 
 class ConfigManager:
-    """Singleton para gerenciamento de configurações"""
+    """Gerencia as configurações da aplicação."""
     
-    _instance = None
+    def __init__(self, config_file=None, env_file=None):
+        """
+        Inicializa o gerenciador de configurações.
+        
+        Args:
+            config_file (str, optional): Caminho para o arquivo de configuração JSON.
+            env_file (str, optional): Caminho para o arquivo .env.
+        """
+        self.logger = logging.getLogger(__name__)
+        self.config = {}
+        
+        # Carregar variáveis de ambiente do arquivo .env
+        if env_file:
+            env_path = Path(env_file)
+        else:
+            env_path = Path('.env')
+        
+        if env_path.exists():
+            load_dotenv(dotenv_path=env_path)
+            self.logger.info(f"Variáveis de ambiente carregadas de {env_path}")
+        else:
+            self.logger.warning(f"Arquivo .env não encontrado em {env_path}")
+        
+        # Carregar configurações do arquivo JSON
+        if config_file:
+            config_path = Path(config_file)
+        else:
+            config_path = Path('config/config.json')
+        
+        if config_path.exists():
+            try:
+                with open(config_path, 'r') as f:
+                    self.config = json.load(f)
+                self.logger.info(f"Configurações carregadas de {config_path}")
+            except Exception as e:
+                self.logger.error(f"Erro ao carregar configurações de {config_path}: {str(e)}")
+        else:
+            self.logger.warning(f"Arquivo de configuração não encontrado em {config_path}")
     
-    def __new__(cls):
-        if cls._instance is None:
-            cls._instance = super(ConfigManager, cls).__new__(cls)
-            cls._instance._initialized = False
-        return cls._instance
-    
-    def __init__(self):
-        if self._initialized:
-            return
+    def get(self, key, default=None):
+        """
+        Obtém um valor de configuração.
+        
+        Args:
+            key (str): Chave da configuração.
+            default: Valor padrão caso a chave não exista.
             
-        # Carregar variáveis de ambiente
-        load_dotenv()
+        Returns:
+            O valor da configuração ou o valor padrão.
+        """
+        # Primeiro, verificar variáveis de ambiente
+        env_key = key.upper()
+        env_value = os.environ.get(env_key)
+        if env_value is not None:
+            return env_value
         
-        # Configurações padrão
-        self.config = {
-            'openai_api_key': os.getenv('OPENAI_API_KEY', ''),
-            'openai_model': os.getenv('OPENAI_MODEL', 'gpt-3.5-turbo'),
-            'max_tokens': int(os.getenv('MAX_TOKENS', '1000')),
-            'max_input_tokens': int(os.getenv('MAX_INPUT_TOKENS', '4000')),
-            'chunk_size': int(os.getenv('CHUNK_SIZE', '2000')),
-            'debug': os.getenv('DEBUG', 'False').lower() == 'true',
-            'flask_secret_key': os.getenv('FLASK_SECRET_KEY', os.urandom(24).hex()),
-            'host': os.getenv('HOST', '0.0.0.0'),
-            'port': int(os.getenv('PORT', '5000')),
-        }
-        
-        # Configurar logging
-        self._setup_logging()
-        
-        self._initialized = True
-    
-    def _setup_logging(self):
-        """Configura o sistema de logging"""
-        log_level = logging.DEBUG if self.config['debug'] else logging.INFO
-        
-        # Configuração básica
-        logging.basicConfig(
-            level=log_level,
-            format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-            handlers=[
-                logging.FileHandler("app.log"),
-                logging.StreamHandler()
-            ]
-        )
-    
-    def get(self, key: str, default: Any = None) -> Any:
-        """Obtém um valor de configuração"""
+        # Em seguida, verificar no arquivo de configuração
         return self.config.get(key, default)
     
-    def set(self, key: str, value: Any) -> None:
-        """Define um valor de configuração"""
+    def set(self, key, value):
+        """
+        Define um valor de configuração.
+        
+        Args:
+            key (str): Chave da configuração.
+            value: Valor da configuração.
+        """
         self.config[key] = value
+    
+    def save(self, config_file=None):
+        """
+        Salva as configurações em um arquivo JSON.
+        
+        Args:
+            config_file (str, optional): Caminho para o arquivo de configuração JSON.
+        """
+        if config_file:
+            config_path = Path(config_file)
+        else:
+            config_path = Path('config/config.json')
+        
+        try:
+            # Garantir que o diretório exista
+            config_path.parent.mkdir(parents=True, exist_ok=True)
+            
+            with open(config_path, 'w') as f:
+                json.dump(self.config, f, indent=4)
+            self.logger.info(f"Configurações salvas em {config_path}")
+        except Exception as e:
+            self.logger.error(f"Erro ao salvar configurações em {config_path}: {str(e)}")
